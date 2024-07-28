@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - 1rem);
+}
+.modal-right .modal-dialog {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-right .modal-content {
+  height: 100%;
+}
+.custom-modal-width .modal-dialog {
+  width: 600px;
+  max-width: 600px; 
+}
+
+.modal-right .modal-dialog {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-right .modal-content {
+  height: 100%;
+}
+.custom-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.custom-input-container .dropdown-symbol {
+  position: absolute;
+  right: 35px;
+  pointer-events: none;
+}
+
+.custom-input-container .remove-button {
+  font-size: 0.75rem;
+  color: red;
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-modal-width .modal-dialog {
+  width: 600px;
+  max-width: 600px; 
+}
+
+.modal-right .modal-dialog {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-right .modal-content {
+  height: 100%;
+}
+.custom-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: rgb(2, 56, 56);
+  size: 45px;
+}
+
+.custom-input {
+  padding-right: 30px; 
+}
+
+.chevron-icon {
+  position: absolute;
+  right: 10px; 
+  cursor: pointer;
+}
+
+.custom-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+}
+
+
+
+.custom-modal {
+  max-width: 600px;
+  position: absolute;
+  top: 1%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
